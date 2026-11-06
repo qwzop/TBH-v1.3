@@ -1,0 +1,17 @@
+{
+  "SchemaVersion": 1,
+  "Id": "synthetic-demo-v1",
+  "Game": "Synthetic demo only",
+  "Build": "1",
+  "Module": "demo.bin",
+  "Sha256": "075de2b906dbd7066da008cab735bee896370154603579a50122f9b88545bd45",
+  "Features": [
+    {
+      "Id": "health",
+      "Label": "Demo health",
+      "Offset": 0,
+      "ExpectedHex": "0A000000",
+      "ReplacementHex": "64000000"
+    }
+  ]
+}
